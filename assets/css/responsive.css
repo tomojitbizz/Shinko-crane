@@ -1,0 +1,71 @@
+/* this is media query 540px */
+@media screen and (max-width: 540px) {
+    .navbar-inverse .navbar-toggle .icon-bar {
+        background-color: #282626 !important;
+    }
+    .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+        background-color: #fc0 !important;
+    }
+    .site-slider{
+        margin-top: 80px;
+    }
+    .phone-box{
+        top: 79px;
+        right: 15px;
+        background-color: #fc0;
+        background-image: none;
+    }
+    .navbar-brand{
+        height: auto !important;
+    }
+    .owl-prev,
+    .owl-next{
+        display: none !important;
+    }
+    .mobile-cat{
+        display: block;
+    }
+    .mobile-cat select{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 25px;
+        background-color: #fc0;
+        color: #000;
+    }
+    .mobile-cat select option{
+        border-bottom: 1px solid #e3e3e3;
+    }
+    .even-item{
+        background-color: #fdee23;
+        color: #000;
+    }
+    .even-item p a{
+        color: #000;
+    }
+    .odd-item{
+        color: #000;
+    }
+    .modal-dialog{
+        width: 100% !important;
+    }
+    }
+
+
+/* this is media query 414px */
+
+@media screen and (max-width: 414px) {
+    .navbar-inverse .navbar-toggle .icon-bar {
+        background-color: #282626 !important;
+    }
+    .site-slider{
+        margin-top: 80px;
+    }
+    .phone-box{
+        width: 130px;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    .phone-text{
+        font-weight: 700;
+    }
+    }

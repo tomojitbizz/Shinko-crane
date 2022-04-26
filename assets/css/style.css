@@ -1,0 +1,248 @@
+
+/* this is header css */
+.navbar-inverse{
+    background-color: #fff !important;
+    border: none !important;
+}
+.navbar-brand{
+    padding: 0 !important;
+}
+.navbar-inverse .navbar-nav>.active>a{
+    background-color:#fdee23 !important;
+    color: #000 !important;
+    font-weight: 700;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #222 !important;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #000 !important;
+}
+.navbar-right a{
+    color: #fff !important;
+    background-color: #fdee23;
+    font-size: 20px;
+    padding: 10px;
+}
+/* this is slider css */
+.site-slider{
+    margin-top: 55px;
+    position: relative;
+}
+/* this is phone box */
+.phone-box{
+    background: url(../images/phone-box.png) 5px center no-repeat,#fc0;
+    top: 55px;
+    height: 46px;
+    position: absolute;
+    right: 190px;
+    width: 175px;
+}
+.phone-text{
+    font-weight: 900;
+}
+.phone-text p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.phone-text a{
+    color: #000;
+}
+/* site-abt-content*/
+.site-abt-content{
+    margin-top: 55px;
+}
+/* site category */
+.mobile-cat{
+    display: none;
+}
+.site-category h3{
+    background-color: #000;
+    color: #fdee23;
+    padding: 15px 12px;
+    margin: 0;
+}
+.site-category ul{
+    background-color: #fdee23;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.site-category ul li{
+    padding: 10px 15px;
+    border-bottom: 1px solid #e3e3e3;
+}
+.site-category ul li a{
+    color: #84611d;
+    text-decoration: none;
+    transition: all ease-in 0.3s;
+}
+.site-category ul li a:hover{
+    color: #000;
+    transition: all ease-in 0.3s;
+}
+/* site-abt-text*/
+.site-abt-text-header h3{
+    background: #000;
+    color: #fdee23;
+    margin: 0;
+    padding: 15px 12px;
+}
+.site-abt-text p{
+    margin-top: 15px;
+    line-height: 25px;
+}
+/* start product carousel*/
+.site-product-img h3{
+background-color: #000;
+color: #fdee23;
+padding: 15px 12px;
+}
+.owl-prev span{
+    position: absolute;
+    top: 35px;
+    left: 0;
+    font-size: 40px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 15px;
+    color: #fff;
+}
+.owl-next span{
+    position: absolute;
+    top: 35px;
+    right: 0;
+    font-size: 40px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 15px;
+    color: #fff;
+}
+/* our merchendise / partner */
+
+.site-partner-logo h3{
+    background-color: #000;
+    color: #fdee23;
+    padding: 15px 12px;
+}
+.site-partner-logo img{
+    
+    margin: 0 auto;
+    height: 60px;
+    margin: 20px 19px;
+    width: 100px;
+    object-fit: contain;
+
+}
+/* start footer */
+.footer-border{
+    background-color: #000;
+    padding: 19px;
+    margin-top: 25px;
+}
+.site-footer{
+    background-color: #fdee23;
+}
+.site-footer p a{
+    color: #000;
+    text-decoration: none;
+}
+.site-footer p a:hover{
+    text-decoration: none;
+    color: #000;
+}
+.footer-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 20px;
+}
+.footer-menu ul li{
+    display: inline-block;
+    padding-left: 20px;
+}
+.footer-menu ul li a{
+    font-size: .857em;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+/* product page start */
+.site-product-list h3{
+    background-color: #000;
+    color: #fdee23;
+    padding: 15px 12px;
+    margin: 0;
+    margin-top: 25px;
+    
+}
+/* product-list-item */
+.odd-item {
+    background: #fdee23;
+    text-align: center;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.odd-item p{
+    padding: 20px 0;
+    margin: 0;
+}
+.odd-item p a{
+    color: #000;
+}
+.wh-border{
+    border: 1px solid #fff;
+}
+.even-item {
+    background: #000;
+    text-align: center;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.even-item p{
+    padding: 20px 0;
+    margin: 0;
+}
+.even-item p a{
+    color: #fff;
+}
+/* used equipment */
+.mt-50{
+    margin: 50px 0;
+    font-size: 20px;
+}
+.equipment-header h3{
+    color: rgb(131, 131, 131);
+}
+.equipment-form input{
+    margin: 10px 0;
+}
+.send-btn{
+    text-align: right;
+    margin-top: 15px;
+}
+.btn-equipment{
+    text-align: right;
+    background-color: #fdee23 !important;
+    border-color: #fdee23 !important;
+    color: #000 !important;
+}
+
+/* this is news css */
+
+.modal-dialog{
+    width: 800px !important;
+}
+.site-blog h3{
+    color: rgb(170, 170, 170);
+}
+/* this is contact us page */
+.contact-address h3{
+    color: rgb(170, 170, 170);
+}
+.contact-address a{
+    color: rgb(80, 80, 80);
+}
